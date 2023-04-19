@@ -1,0 +1,504 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\London1884">
+      <UniqueIdentifier>{aca8cde1-b1ca-44f0-95a0-a70af3748e28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\London1884\Commands">
+      <UniqueIdentifier>{362bdc7e-66be-437a-bc11-99948f4b6e32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\London1884\Commands\MenuList">
+      <UniqueIdentifier>{1e0ae743-3bd1-4b25-ac06-0a8c915a0e08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\London1884\Suspects">
+      <UniqueIdentifier>{81fdf4f7-84b6-4201-a89e-a786ded1c030}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\London1884\Game">
+      <UniqueIdentifier>{00f0fbaa-cc3b-46e6-befb-3c9943f0b95b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\London1884\Game\GameLoop">
+      <UniqueIdentifier>{98a0f4e6-e0ba-451d-a349-d71a40a6fd7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\London1884\Game\Adventure">
+      <UniqueIdentifier>{a959349f-fe15-4223-a185-d812b55c8b5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\London1884\Game\Adventure\AdventureFunction">
+      <UniqueIdentifier>{f4c57af5-6b6a-4401-8685-846e8ae14414}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\London1884\Game\Detection">
+      <UniqueIdentifier>{c4df09d6-0a85-4d06-adce-a4acc25557b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\London1884\Utils">
+      <UniqueIdentifier>{de5230c8-27ef-40e6-9bee-3475541d7078}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\London1884\Room">
+      <UniqueIdentifier>{e0feb9a6-3a80-4086-a795-4b5fbe5b38c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\London1884\Items&amp;Clues">
+      <UniqueIdentifier>{91ab642f-7f16-4504-a785-a36f2b1ecf8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\London1884\Etc">
+      <UniqueIdentifier>{b47ac098-73d6-4e25-a30d-cae450d3b436}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\London1884\Game\Detection\List">
+      <UniqueIdentifier>{7e196e97-16db-4b9e-86c8-c483572217fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\London1884\Game\Detection\Suspect">
+      <UniqueIdentifier>{85cbd252-26be-48de-9fac-fe2fda4b659c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SOURCE\ClueList.h">
+      <Filter>소스 파일\London1884\Commands\MenuList</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCE\Inventory.h">
+      <Filter>소스 파일\London1884\Commands\MenuList</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCE\SuspectList.h">
+      <Filter>소스 파일\London1884\Commands\MenuList</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCE\Menu.h">
+      <Filter>소스 파일\London1884\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCE\Quit.h">
+      <Filter>소스 파일\London1884\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCE\Arcade.h">
+      <Filter>소스 파일\London1884\Etc</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCE\Cheat.h">
+      <Filter>소스 파일\London1884\Etc</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCE\CruiseGuideMap.h">
+      <Filter>소스 파일\London1884\Etc</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCE\MiniMenu.h">
+      <Filter>소스 파일\London1884\Etc</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCE\Piano.h">
+      <Filter>소스 파일\London1884\Etc</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCE\Sound.h">
+      <Filter>소스 파일\London1884\Etc</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCE\DoorFunction.h">
+      <Filter>소스 파일\London1884\Game\Adventure\AdventureFunction</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCE\FloorFunction.h">
+      <Filter>소스 파일\London1884\Game\Adventure\AdventureFunction</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCE\MoveFunction.h">
+      <Filter>소스 파일\London1884\Game\Adventure\AdventureFunction</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCE\NonSuspectFunction.h">
+      <Filter>소스 파일\London1884\Game\Adventure\AdventureFunction</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCE\ObjectFunction.h">
+      <Filter>소스 파일\London1884\Game\Adventure\AdventureFunction</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCE\PassageFunction.h">
+      <Filter>소스 파일\London1884\Game\Adventure\AdventureFunction</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCE\StairFunction.h">
+      <Filter>소스 파일\London1884\Game\Adventure\AdventureFunction</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCE\Adventure.h">
+      <Filter>소스 파일\London1884\Game\Adventure</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCE\ClueListDetection.h">
+      <Filter>소스 파일\London1884\Game\Detection\List</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCE\InfoListDetection.h">
+      <Filter>소스 파일\London1884\Game\Detection\List</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCE\JamesListDetection.h">
+      <Filter>소스 파일\London1884\Game\Detection\List</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCE\SuspectListDetection.h">
+      <Filter>소스 파일\London1884\Game\Detection\List</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCE\Brian.h">
+      <Filter>소스 파일\London1884\Game\Detection\Suspect</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCE\BrianAlibi.h">
+      <Filter>소스 파일\London1884\Game\Detection\Suspect</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCE\Edward.h">
+      <Filter>소스 파일\London1884\Game\Detection\Suspect</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCE\EdwardAlibi.h">
+      <Filter>소스 파일\London1884\Game\Detection\Suspect</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCE\Emma.h">
+      <Filter>소스 파일\London1884\Game\Detection\Suspect</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCE\EmmaAlibi.h">
+      <Filter>소스 파일\London1884\Game\Detection\Suspect</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCE\George.h">
+      <Filter>소스 파일\London1884\Game\Detection\Suspect</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCE\GeorgeAlibi.h">
+      <Filter>소스 파일\London1884\Game\Detection\Suspect</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCE\Info.h">
+      <Filter>소스 파일\London1884\Game\Detection\Suspect</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCE\James.h">
+      <Filter>소스 파일\London1884\Game\Detection\Suspect</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCE\John.h">
+      <Filter>소스 파일\London1884\Game\Detection\Suspect</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCE\JohnAlibi.h">
+      <Filter>소스 파일\London1884\Game\Detection\Suspect</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCE\Olivia.h">
+      <Filter>소스 파일\London1884\Game\Detection\Suspect</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCE\OliviaAlibi.h">
+      <Filter>소스 파일\London1884\Game\Detection\Suspect</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCE\Paul.h">
+      <Filter>소스 파일\London1884\Game\Detection\Suspect</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCE\PaulAlibi.h">
+      <Filter>소스 파일\London1884\Game\Detection\Suspect</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCE\Ronald.h">
+      <Filter>소스 파일\London1884\Game\Detection\Suspect</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCE\RonaldAlibi.h">
+      <Filter>소스 파일\London1884\Game\Detection\Suspect</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCE\Steven.h">
+      <Filter>소스 파일\London1884\Game\Detection\Suspect</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCE\StevenAlibi.h">
+      <Filter>소스 파일\London1884\Game\Detection\Suspect</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCE\DetectionChoice.h">
+      <Filter>소스 파일\London1884\Game\Detection</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCE\Detection.h">
+      <Filter>소스 파일\London1884\Game\Detection</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCE\DetectionGameover.h">
+      <Filter>소스 파일\London1884\Game\Detection</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCE\DetectionPicture.h">
+      <Filter>소스 파일\London1884\Game\Detection</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCE\DetectiveChancePrint.h">
+      <Filter>소스 파일\London1884\Game\Detection</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCE\GameClear.h">
+      <Filter>소스 파일\London1884\Game\GameLoop</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCE\GameFail.h">
+      <Filter>소스 파일\London1884\Game\GameLoop</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCE\GameIntro.h">
+      <Filter>소스 파일\London1884\Game\GameLoop</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCE\GameMenu.h">
+      <Filter>소스 파일\London1884\Game\GameLoop</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCE\GameOver.h">
+      <Filter>소스 파일\London1884\Game\GameLoop</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCE\GameStart.h">
+      <Filter>소스 파일\London1884\Game\GameLoop</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCE\Main.h">
+      <Filter>소스 파일\London1884\Game\GameLoop</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCE\ClueFunctions.h">
+      <Filter>소스 파일\London1884\Items&amp;Clues</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCE\ItemFunctions.h">
+      <Filter>소스 파일\London1884\Items&amp;Clues</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCE\RoomCreate.h">
+      <Filter>소스 파일\London1884\Room</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCE\RoomDescription.h">
+      <Filter>소스 파일\London1884\Room</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCE\RoomUpdate.h">
+      <Filter>소스 파일\London1884\Room</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCE\SuspectBrian.h">
+      <Filter>소스 파일\London1884\Suspects</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCE\SuspectEdward.h">
+      <Filter>소스 파일\London1884\Suspects</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCE\SuspectEmma.h">
+      <Filter>소스 파일\London1884\Suspects</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCE\SuspectGeorge.h">
+      <Filter>소스 파일\London1884\Suspects</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCE\SuspectJohn.h">
+      <Filter>소스 파일\London1884\Suspects</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCE\SuspectMark.h">
+      <Filter>소스 파일\London1884\Suspects</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCE\SuspectOlivia.h">
+      <Filter>소스 파일\London1884\Suspects</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCE\SuspectPaul.h">
+      <Filter>소스 파일\London1884\Suspects</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCE\SuspectRonald.h">
+      <Filter>소스 파일\London1884\Suspects</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCE\SuspectSteven.h">
+      <Filter>소스 파일\London1884\Suspects</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCE\Util.h">
+      <Filter>소스 파일\London1884\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCE\Define.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCE\Header.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="SOURCE\Variable.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SOURCE\Inventory.c">
+      <Filter>소스 파일\London1884\Commands\MenuList</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCE\SuspectList.c">
+      <Filter>소스 파일\London1884\Commands\MenuList</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCE\ClueList.c">
+      <Filter>소스 파일\London1884\Commands\MenuList</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCE\Menu.c">
+      <Filter>소스 파일\London1884\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCE\Quit.c">
+      <Filter>소스 파일\London1884\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCE\Arcade.c">
+      <Filter>소스 파일\London1884\Etc</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCE\Cheat.c">
+      <Filter>소스 파일\London1884\Etc</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCE\CruiseGuideMap.c">
+      <Filter>소스 파일\London1884\Etc</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCE\MiniMenu.c">
+      <Filter>소스 파일\London1884\Etc</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCE\Piano.c">
+      <Filter>소스 파일\London1884\Etc</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCE\Sound.c">
+      <Filter>소스 파일\London1884\Etc</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCE\DoorFunction.c">
+      <Filter>소스 파일\London1884\Game\Adventure\AdventureFunction</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCE\FloorFunction.c">
+      <Filter>소스 파일\London1884\Game\Adventure\AdventureFunction</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCE\MoveFunction.c">
+      <Filter>소스 파일\London1884\Game\Adventure\AdventureFunction</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCE\NonSuspectFunction.c">
+      <Filter>소스 파일\London1884\Game\Adventure\AdventureFunction</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCE\ObjectFunction.c">
+      <Filter>소스 파일\London1884\Game\Adventure\AdventureFunction</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCE\PassageFunction.c">
+      <Filter>소스 파일\London1884\Game\Adventure\AdventureFunction</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCE\StairFunction.c">
+      <Filter>소스 파일\London1884\Game\Adventure\AdventureFunction</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCE\Adventure.c">
+      <Filter>소스 파일\London1884\Game\Adventure</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCE\ClueListDetection.c">
+      <Filter>소스 파일\London1884\Game\Detection\List</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCE\InfoListDetection.c">
+      <Filter>소스 파일\London1884\Game\Detection\List</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCE\JamesListDetection.c">
+      <Filter>소스 파일\London1884\Game\Detection\List</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCE\SuspectListDetection.c">
+      <Filter>소스 파일\London1884\Game\Detection\List</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCE\Brian.c">
+      <Filter>소스 파일\London1884\Game\Detection\Suspect</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCE\BrianAlibi.c">
+      <Filter>소스 파일\London1884\Game\Detection\Suspect</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCE\Edward.c">
+      <Filter>소스 파일\London1884\Game\Detection\Suspect</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCE\EdwardAlibi.c">
+      <Filter>소스 파일\London1884\Game\Detection\Suspect</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCE\Emma.c">
+      <Filter>소스 파일\London1884\Game\Detection\Suspect</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCE\EmmaAlibi.c">
+      <Filter>소스 파일\London1884\Game\Detection\Suspect</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCE\George.c">
+      <Filter>소스 파일\London1884\Game\Detection\Suspect</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCE\GeorgeAlibi.c">
+      <Filter>소스 파일\London1884\Game\Detection\Suspect</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCE\Info.c">
+      <Filter>소스 파일\London1884\Game\Detection\Suspect</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCE\James.c">
+      <Filter>소스 파일\London1884\Game\Detection\Suspect</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCE\John.c">
+      <Filter>소스 파일\London1884\Game\Detection\Suspect</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCE\JohnAlibi.c">
+      <Filter>소스 파일\London1884\Game\Detection\Suspect</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCE\Olivia.c">
+      <Filter>소스 파일\London1884\Game\Detection\Suspect</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCE\OliviaAlibi.c">
+      <Filter>소스 파일\London1884\Game\Detection\Suspect</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCE\Paul.c">
+      <Filter>소스 파일\London1884\Game\Detection\Suspect</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCE\PaulAlibi.c">
+      <Filter>소스 파일\London1884\Game\Detection\Suspect</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCE\Ronald.c">
+      <Filter>소스 파일\London1884\Game\Detection\Suspect</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCE\RonaldAlibi.c">
+      <Filter>소스 파일\London1884\Game\Detection\Suspect</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCE\Steven.c">
+      <Filter>소스 파일\London1884\Game\Detection\Suspect</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCE\StevenAlibi.c">
+      <Filter>소스 파일\London1884\Game\Detection\Suspect</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCE\DetectionChoice.c">
+      <Filter>소스 파일\London1884\Game\Detection</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCE\Detection.c">
+      <Filter>소스 파일\London1884\Game\Detection</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCE\DetectionGameover.c">
+      <Filter>소스 파일\London1884\Game\Detection</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCE\DetectionPicture.c">
+      <Filter>소스 파일\London1884\Game\Detection</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCE\DetectiveChancePrint.c">
+      <Filter>소스 파일\London1884\Game\Detection</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCE\GameClear.c">
+      <Filter>소스 파일\London1884\Game\GameLoop</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCE\GameFail.c">
+      <Filter>소스 파일\London1884\Game\GameLoop</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCE\GameIntro.c">
+      <Filter>소스 파일\London1884\Game\GameLoop</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCE\GameMenu.c">
+      <Filter>소스 파일\London1884\Game\GameLoop</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCE\GameOver.c">
+      <Filter>소스 파일\London1884\Game\GameLoop</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCE\GameStart.c">
+      <Filter>소스 파일\London1884\Game\GameLoop</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCE\Main.c">
+      <Filter>소스 파일\London1884\Game\GameLoop</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCE\ClueFunctions.c">
+      <Filter>소스 파일\London1884\Items&amp;Clues</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCE\ItemFunctions.c">
+      <Filter>소스 파일\London1884\Items&amp;Clues</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCE\RoomCreate.c">
+      <Filter>소스 파일\London1884\Room</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCE\RoomDescription.c">
+      <Filter>소스 파일\London1884\Room</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCE\RoomStructure.c">
+      <Filter>소스 파일\London1884\Room</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCE\RoomUpdate.c">
+      <Filter>소스 파일\London1884\Room</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCE\SuspectBrian.c">
+      <Filter>소스 파일\London1884\Suspects</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCE\SuspectEdward.c">
+      <Filter>소스 파일\London1884\Suspects</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCE\SuspectEmma.c">
+      <Filter>소스 파일\London1884\Suspects</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCE\SuspectGeorge.c">
+      <Filter>소스 파일\London1884\Suspects</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCE\SuspectJohn.c">
+      <Filter>소스 파일\London1884\Suspects</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCE\SuspectMark.c">
+      <Filter>소스 파일\London1884\Suspects</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCE\SuspectOlivia.c">
+      <Filter>소스 파일\London1884\Suspects</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCE\SuspectPaul.c">
+      <Filter>소스 파일\London1884\Suspects</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCE\SuspectRonald.c">
+      <Filter>소스 파일\London1884\Suspects</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCE\SuspectSteven.c">
+      <Filter>소스 파일\London1884\Suspects</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCE\Util.c">
+      <Filter>소스 파일\London1884\Utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

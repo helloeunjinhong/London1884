@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SOURCE\Adventure.h" />
+    <ClInclude Include="SOURCE\Arcade.h" />
+    <ClInclude Include="SOURCE\Brian.h" />
+    <ClInclude Include="SOURCE\BrianAlibi.h" />
+    <ClInclude Include="SOURCE\Cheat.h" />
+    <ClInclude Include="SOURCE\ClueFunctions.h" />
+    <ClInclude Include="SOURCE\ClueList.h" />
+    <ClInclude Include="SOURCE\ClueListDetection.h" />
+    <ClInclude Include="SOURCE\CruiseGuideMap.h" />
+    <ClInclude Include="SOURCE\Define.h" />
+    <ClInclude Include="SOURCE\Detection.h" />
+    <ClInclude Include="SOURCE\DetectionChoice.h" />
+    <ClInclude Include="SOURCE\DetectionGameover.h" />
+    <ClInclude Include="SOURCE\DetectionPicture.h" />
+    <ClInclude Include="SOURCE\DetectiveChancePrint.h" />
+    <ClInclude Include="SOURCE\DoorFunction.h" />
+    <ClInclude Include="SOURCE\Edward.h" />
+    <ClInclude Include="SOURCE\EdwardAlibi.h" />
+    <ClInclude Include="SOURCE\Emma.h" />
+    <ClInclude Include="SOURCE\EmmaAlibi.h" />
+    <ClInclude Include="SOURCE\FloorFunction.h" />
+    <ClInclude Include="SOURCE\GameClear.h" />
+    <ClInclude Include="SOURCE\GameFail.h" />
+    <ClInclude Include="SOURCE\GameIntro.h" />
+    <ClInclude Include="SOURCE\GameMenu.h" />
+    <ClInclude Include="SOURCE\GameOver.h" />
+    <ClInclude Include="SOURCE\GameStart.h" />
+    <ClInclude Include="SOURCE\George.h" />
+    <ClInclude Include="SOURCE\GeorgeAlibi.h" />
+    <ClInclude Include="SOURCE\Header.h" />
+    <ClInclude Include="SOURCE\Info.h" />
+    <ClInclude Include="SOURCE\InfoListDetection.h" />
+    <ClInclude Include="SOURCE\Inventory.h" />
+    <ClInclude Include="SOURCE\ItemFunctions.h" />
+    <ClInclude Include="SOURCE\James.h" />
+    <ClInclude Include="SOURCE\JamesListDetection.h" />
+    <ClInclude Include="SOURCE\John.h" />
+    <ClInclude Include="SOURCE\JohnAlibi.h" />
+    <ClInclude Include="SOURCE\Main.h" />
+    <ClInclude Include="SOURCE\Menu.h" />
+    <ClInclude Include="SOURCE\MiniMenu.h" />
+    <ClInclude Include="SOURCE\MoveFunction.h" />
+    <ClInclude Include="SOURCE\NonSuspectFunction.h" />
+    <ClInclude Include="SOURCE\ObjectFunction.h" />
+    <ClInclude Include="SOURCE\Olivia.h" />
+    <ClInclude Include="SOURCE\OliviaAlibi.h" />
+    <ClInclude Include="SOURCE\PassageFunction.h" />
+    <ClInclude Include="SOURCE\Paul.h" />
+    <ClInclude Include="SOURCE\PaulAlibi.h" />
+    <ClInclude Include="SOURCE\Piano.h" />
+    <ClInclude Include="SOURCE\Quit.h" />
+    <ClInclude Include="SOURCE\Ronald.h" />
+    <ClInclude Include="SOURCE\RonaldAlibi.h" />
+    <ClInclude Include="SOURCE\RoomCreate.h" />
+    <ClInclude Include="SOURCE\RoomDescription.h" />
+    <ClInclude Include="SOURCE\RoomUpdate.h" />
+    <ClInclude Include="SOURCE\Sound.h" />
+    <ClInclude Include="SOURCE\StairFunction.h" />
+    <ClInclude Include="SOURCE\Steven.h" />
+    <ClInclude Include="SOURCE\StevenAlibi.h" />
+    <ClInclude Include="SOURCE\SuspectBrian.h" />
+    <ClInclude Include="SOURCE\SuspectEdward.h" />
+    <ClInclude Include="SOURCE\SuspectEmma.h" />
+    <ClInclude Include="SOURCE\SuspectGeorge.h" />
+    <ClInclude Include="SOURCE\SuspectJohn.h" />
+    <ClInclude Include="SOURCE\SuspectList.h" />
+    <ClInclude Include="SOURCE\SuspectListDetection.h" />
+    <ClInclude Include="SOURCE\SuspectMark.h" />
+    <ClInclude Include="SOURCE\SuspectOlivia.h" />
+    <ClInclude Include="SOURCE\SuspectPaul.h" />
+    <ClInclude Include="SOURCE\SuspectRonald.h" />
+    <ClInclude Include="SOURCE\SuspectSteven.h" />
+    <ClInclude Include="SOURCE\Util.h" />
+    <ClInclude Include="SOURCE\Variable.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SOURCE\Adventure.c" />
+    <ClCompile Include="SOURCE\Arcade.c" />
+    <ClCompile Include="SOURCE\Brian.c" />
+    <ClCompile Include="SOURCE\BrianAlibi.c" />
+    <ClCompile Include="SOURCE\Cheat.c" />
+    <ClCompile Include="SOURCE\ClueFunctions.c" />
+    <ClCompile Include="SOURCE\ClueList.c" />
+    <ClCompile Include="SOURCE\ClueListDetection.c" />
+    <ClCompile Include="SOURCE\CruiseGuideMap.c" />
+    <ClCompile Include="SOURCE\Detection.c" />
+    <ClCompile Include="SOURCE\DetectionChoice.c" />
+    <ClCompile Include="SOURCE\DetectionGameover.c" />
+    <ClCompile Include="SOURCE\DetectionPicture.c" />
+    <ClCompile Include="SOURCE\DetectiveChancePrint.c" />
+    <ClCompile Include="SOURCE\DoorFunction.c" />
+    <ClCompile Include="SOURCE\Edward.c" />
+    <ClCompile Include="SOURCE\EdwardAlibi.c" />
+    <ClCompile Include="SOURCE\Emma.c" />
+    <ClCompile Include="SOURCE\EmmaAlibi.c" />
+    <ClCompile Include="SOURCE\FloorFunction.c" />
+    <ClCompile Include="SOURCE\GameClear.c" />
+    <ClCompile Include="SOURCE\GameFail.c" />
+    <ClCompile Include="SOURCE\GameIntro.c" />
+    <ClCompile Include="SOURCE\GameMenu.c" />
+    <ClCompile Include="SOURCE\GameOver.c" />
+    <ClCompile Include="SOURCE\GameStart.c" />
+    <ClCompile Include="SOURCE\George.c" />
+    <ClCompile Include="SOURCE\GeorgeAlibi.c" />
+    <ClCompile Include="SOURCE\Info.c" />
+    <ClCompile Include="SOURCE\InfoListDetection.c" />
+    <ClCompile Include="SOURCE\Inventory.c" />
+    <ClCompile Include="SOURCE\ItemFunctions.c" />
+    <ClCompile Include="SOURCE\James.c" />
+    <ClCompile Include="SOURCE\JamesListDetection.c" />
+    <ClCompile Include="SOURCE\John.c" />
+    <ClCompile Include="SOURCE\JohnAlibi.c" />
+    <ClCompile Include="SOURCE\Main.c" />
+    <ClCompile Include="SOURCE\Menu.c" />
+    <ClCompile Include="SOURCE\MiniMenu.c" />
+    <ClCompile Include="SOURCE\MoveFunction.c" />
+    <ClCompile Include="SOURCE\NonSuspectFunction.c" />
+    <ClCompile Include="SOURCE\ObjectFunction.c" />
+    <ClCompile Include="SOURCE\Olivia.c" />
+    <ClCompile Include="SOURCE\OliviaAlibi.c" />
+    <ClCompile Include="SOURCE\PassageFunction.c" />
+    <ClCompile Include="SOURCE\Paul.c" />
+    <ClCompile Include="SOURCE\PaulAlibi.c" />
+    <ClCompile Include="SOURCE\Piano.c" />
+    <ClCompile Include="SOURCE\Quit.c" />
+    <ClCompile Include="SOURCE\Ronald.c" />
+    <ClCompile Include="SOURCE\RonaldAlibi.c" />
+    <ClCompile Include="SOURCE\RoomCreate.c" />
+    <ClCompile Include="SOURCE\RoomDescription.c" />
+    <ClCompile Include="SOURCE\RoomStructure.c" />
+    <ClCompile Include="SOURCE\RoomUpdate.c" />
+    <ClCompile Include="SOURCE\Sound.c" />
+    <ClCompile Include="SOURCE\StairFunction.c" />
+    <ClCompile Include="SOURCE\Steven.c" />
+    <ClCompile Include="SOURCE\StevenAlibi.c" />
+    <ClCompile Include="SOURCE\SuspectBrian.c" />
+    <ClCompile Include="SOURCE\SuspectEdward.c" />
+    <ClCompile Include="SOURCE\SuspectEmma.c" />
+    <ClCompile Include="SOURCE\SuspectGeorge.c" />
+    <ClCompile Include="SOURCE\SuspectJohn.c" />
+    <ClCompile Include="SOURCE\SuspectList.c" />
+    <ClCompile Include="SOURCE\SuspectListDetection.c" />
+    <ClCompile Include="SOURCE\SuspectMark.c" />
+    <ClCompile Include="SOURCE\SuspectOlivia.c" />
+    <ClCompile Include="SOURCE\SuspectPaul.c" />
+    <ClCompile Include="SOURCE\SuspectRonald.c" />
+    <ClCompile Include="SOURCE\SuspectSteven.c" />
+    <ClCompile Include="SOURCE\Util.c" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{28FA66BF-E3F6-4DF5-B600-310727EFE9D8}</ProjectGuid>
+    <RootNamespace>GAMELOGOMODIFIED</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+    <ProjectName>London1884</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>winmm.lib</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
